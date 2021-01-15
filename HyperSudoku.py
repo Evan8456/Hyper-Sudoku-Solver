@@ -1,17 +1,3 @@
-#################################################################
-#                                                               #
-#    Define any helper functions you need in this file only.    #
-#    You will be handing in HyperSudoku.py, nothing else.       #
-#                                                               #
-#    A few test cases are provided in Test.py. You can test     #
-#    Your code by running: (See the file for more details)      #
-#               python Test.py                                  #
-#    in the directory where the files are located.              #
-#                                                               #
-#    We're using Python 3.X this time.                          #
-#                                                               #
-#################################################################
-
 
 class HyperSudoku:
 
@@ -33,7 +19,7 @@ class HyperSudoku:
         if(HyperSudoku.solveSudoku(grid)):
             return grid
         else: 
-            return None     # Update this to return correctly
+            return None     
     
     @staticmethod
     def printGrid(grid):
